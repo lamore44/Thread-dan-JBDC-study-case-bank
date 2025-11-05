@@ -1,0 +1,11 @@
+{
+  "java.project.sourcePaths": ["src"],
+  "java.project.outputPath": "bin",
+  "java.project.referencedLibraries": {
+    "include": [
+      "lib/**/*.jar",
+      "d:\\Teknik\\mysql-connector-j-9.5.0\\mysql-connector-j-9.5.0\\mysql-connector-java-9.5.0.jar"
+    ],
+    "exclude": ["lib/mysql-connector-j-9.5.0.jar"]
+  }
+}
