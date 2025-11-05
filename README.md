@@ -70,7 +70,7 @@ VALUES ('222', 'Ani', 500000.0);
 
 ### 3. Konfigurasi Koneksi Database
 
-Edit file `src/DatabaseManager.java` sesuai dengan setting MySQL Anda:
+Edit file `src/DatabaseManager.java` sesuai dengan setting MySQL:
 
 ```java
 private static final String DB_URL = "jdbc:mysql://localhost:3306/db_bank";
@@ -135,7 +135,7 @@ UPDATE akun SET saldo = 1000000 WHERE nomor_rekening = '111';
 ### Error: SQLException - Access denied
 
 **Penyebab:** Username/password MySQL salah  
-**Solusi:** Cek konfigurasi di `DatabaseManager.java`, sesuaikan dengan setting XAMPP Anda
+**Solusi:** Cek konfigurasi di `DatabaseManager.java`, sesuaikan dengan setting XAMPP yang dimiliki
 
 ### Error: Akun tidak ditemukan
 
